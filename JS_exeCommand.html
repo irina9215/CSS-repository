@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>execCommand 例子</title>
+    <meta charset="utf-8" />
+    <script type="text/javascript">
+        var editorDoc;
+        function InitEditable () {
+            var editor = document.getElementById ("editor");
+
+            if (editor.contentDocument)
+                editorDoc = editor.contentDocument;
+            else
+                editorDoc = editor.contentWindow.document;
+            
+            var editorBody = editorDoc.body;
+
+                // turn off spellcheck
+            if ('spellcheck' in editorBody) {   // Firefox
+                editorBody.spellcheck = false;
+            }
+
+            if ('contentEditable' in editorBody) {
+                    // allow contentEditable
+                editorBody.contentEditable = true;
+            }
+            else {  // Firefox earlier than version 3
+                if ('designMode' in editorDoc) {
+                        // turn on designMode
+                    editorDoc.designMode = "on";                
+                }
+            }
+        }
+
+        function ToggleBold () {
+            editorDoc.execCommand ('bold', false, null);
+        }
+        function ToggleItalic () {
+            editorDoc.execCommand ('italic', false, null);
+        }
+        function SetRed () {
+            editorDoc.execCommand ('foreColor', false, "#ff0000");
+        }
+        function Delete () {
+            editorDoc.execCommand ('delete', false, null);
+        }
+    </script>
+</head>
+<body onload="InitEditable ();">
+<div style="width:960px;height:90px;margin:0 auto;display:block;">
+<script type="text/javascript">
+    /*960*90 创建于 2014-08-26*/
+    var cpro_id = "u1679029";
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>
+</div>
+<br/><br/><br/>
+    <div>
+        <table cellpadding="0px" cellspacing="0px" style="width:100%">
+            <tr>
+                <td height="30" align="center" style="background-color:#ffffff; border-bottom:1px solid #000000; padding-bottom:5px;">
+                    <span style="font-size:20px;">javascript  execCommand 例子</span>
+                </td>
+            </tr>
+            <tr height="230">
+                <td align="center" valign="middle" style="padding-top:15px; padding-bottom:10px;">
+    首先你可以写或者选中编辑器中的文字
+    <br />
+    <iframe id="editor" src="editable.htm"></iframe>
+    <br /><br />
+    你可以用下面的按钮对编辑器中文字进行操作
+    <br /><br />
+    <button onclick="ToggleBold ();">加粗</button>
+    <button onclick="ToggleItalic ();">斜体</button>
+    <button onclick="SetRed ();">变红</button>
+    <button onclick="Delete ();">删除</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
