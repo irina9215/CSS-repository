@@ -7,3 +7,8 @@ html {
   filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
   -webkit-filter: grayscale(1);//谷歌浏览器
 }
+
+
+<!-- make flash to gray --!>
+<param value="false" name="menu"/>
+<param value="opaque" name="wmode"/>
