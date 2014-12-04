@@ -8,5 +8,5 @@ CSS-repository
 3. 不让用户复制，设置的div禁止选择功能——forbidden_div_copy.html
 4. CSS 中form表单两端对齐——justifyForm.html&justifyForm.css
 5. input声音录入按钮——inputVoice.html
-6. 给input的placeholder设置颜色——setInputPlaceholderColor.html
+6. 给input的placeholder设置颜色——setInputPlaceholderColor.css
 7. 实现一个div设置多张背景图片及background-image属性——setMulBackground.html
