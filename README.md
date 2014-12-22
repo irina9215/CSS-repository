@@ -11,3 +11,4 @@ CSS-repository
 6. 给input的placeholder设置颜色——setInputPlaceholderColor.css
 7. 实现一个div设置多张背景图片及background-image属性——setMulBackground.html
 8.jQuery 倒计时插件，用于显示剩余的天数，小时，分钟和秒
+9.HTML5实现加载等待图标
