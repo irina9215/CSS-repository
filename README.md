@@ -10,6 +10,6 @@ CSS-repository
 5. input声音录入按钮——inputVoice.html<br>
 6. 给input的placeholder设置颜色——setInputPlaceholderColor.css<br>
 7. 实现一个div设置多张背景图片及background-image属性——setMulBackground.html<br>
-8.jQuery 倒计时插件，用于显示剩余的天数，小时，分钟和秒<br>
-9.HTML5实现加载等待图标<br>
-10.slice-box 利用了 3D transforms（变换）属性来实现多种不同的效果<br>
+8. jQuery 倒计时插件，用于显示剩余的天数，小时，分钟和秒<br>
+9. HTML5实现加载等待图标<br>
+10. slice-box 利用了 3D transforms（变换）属性来实现多种不同的效果<br>
