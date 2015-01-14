@@ -7,7 +7,7 @@ CSS-repository
 2. JS_exeCommand.html  做出 div 类似输入框可设置效果<br>
 3. forbidden_div_copy.html  不让用户复制，设置的div禁止选择功能<br>
 4. justifyForm.html&justifyForm.css  CSS 中form表单两端对齐<br>
-5. inputVoice.html  input声音录入按钮<br>
+5. inputVoice.html  对input声音录入按钮<br>
 6. setInputPlaceholderColor.css   给input的placeholder设置颜色<br>
 7. setMulBackground.html  实现一个div设置多张背景图片及background-image属性<br>
 8. countdown jQuery 倒计时插件，用于显示剩余的天数，小时，分钟和秒<br>
