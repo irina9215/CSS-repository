@@ -4,7 +4,7 @@ CSS-repository
 一些css常用效果，想起要用的时候过来拿~
 
 1. toGray.html  网站迅速变灰<br>
-2. div 类似输入框可设置效果——JS_exeCommand.html<br>
+2. JS_exeCommand.html  做出 div 类似输入框可设置效果<br>
 3. 不让用户复制，设置的div禁止选择功能——forbidden_div_copy.html<br>
 4. CSS 中form表单两端对齐——justifyForm.html&justifyForm.css<br>
 5. input声音录入按钮——inputVoice.html<br>
