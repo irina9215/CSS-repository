@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/zadvorsky/pen/xbgNXo.
+在 CodePen.io 上的一个demo.访问 http://codepen.io/zadvorsky/pen/xbgNXo 可以在线看到炫酷的3D效果。
 
- Another css3D + canvas experiment
+ CSS3 + canvas 3D experiment
