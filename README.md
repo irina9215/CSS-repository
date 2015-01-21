@@ -14,3 +14,4 @@ CSS-repository
 9. sonic.js-master  HTML5实现加载等待图标<br>
 10. slice-box 利用了 3D transforms（变换）属性来实现多种不同的效果<br>
 11. sidebar-transitions 网页边栏过渡动画:以细微的过渡动画显示一些隐藏的侧边栏，其余的内容也是。通常侧边栏滑入，把其他内容推到一边。这个可过程中可以加入很多微妙而奇特的效果。<br>
+12. mobileFirstProductSlideshowWidget 展示商品
