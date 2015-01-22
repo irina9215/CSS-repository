@@ -1,0 +1,27 @@
+body {
+  background: #000;
+}
+
+div {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+canvas {
+  position: absolute;
+  height: 150px;
+  width: 250px;
+  top: 50%;
+  left: 50%;
+  margin-left: -125px;
+  margin-top: -75px;
+}
