@@ -16,3 +16,5 @@ CSS-repository
 11. sidebar-transitions 网页边栏过渡动画:以细微的过渡动画显示一些隐藏的侧边栏，其余的内容也是。通常侧边栏滑入，把其他内容推到一边。这个可过程中可以加入很多微妙而奇特的效果。<br>
 12. mobileFirstProductSlideshowWidget 展示商品<br>
 13. 3DExperimentCube 利用CSS3、HTML5做出的酷炫3D立方效果<br>
+14. fadingInfinity 一个无穷符号的等待icon<br>
+15. DartBoardMenu 一个类似飞镖盘的菜单icon，利用HTML5和CSS3实现的<br>
