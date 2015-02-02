@@ -18,3 +18,4 @@ CSS-repository
 13. 3DExperimentCube 利用CSS3、HTML5做出的酷炫3D立方效果<br>
 14. fadingInfinity 一个无穷符号的等待icon<br>
 15. DartBoardMenu 一个类似飞镖盘的菜单icon，利用HTML5和CSS3实现的<br>
+16. birds-on-a-wire 一个全部用CSS3实现的精美图画，大赞！！学习之！！<br>
